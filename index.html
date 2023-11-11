@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çikolatalı Sufle</title>
+    <style>
+        div ul {
+            list-style-type: none;
+        }
+
+        div ul li:before {
+            content: '\2022';
+            color: red;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+
+        ol {
+
+            list-style-type: none;
+            counter-reset: item;
+
+        }
+
+        ol li:before {
+            content: counter(item) ". ";
+            counter-increment: item;
+            color: red;
+            font-weight: bold;
+        }
+
+        h3 {
+            color: red;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2 style="text-align: center;">Çikolatalı Sufle</h2>
+        <img src="sufle.jpg" alt="sufle" height="300px" style="display: block; margin: auto;">
+        <p>Bu tarif tüm çikolata aşıklarına gelsin. Diğer tarifler şöyle dursun sufle hem görüntüsü hem lezzeti hem de
+            yapımının kolay olmasıyla benim gönlümde ayrı bir yeri var. Birkaç püf noktaya uyarak enfes ve tam kıvamında
+            sufle yapmak çok kolay. <a href="#tarif">Haydi tarife!</a>
+        </p>
+    </header>
+    <p><b style="color: black;">Bir porsiyon çikolatalı sufle kaç kaloridir?</b></p>
+    <ul>
+        <li>Orta boyutlarda hazırlanan bir porsiyon çikolatalı sufle, yaklaşık 390 kaloridir. Kilo kontrolünü dengede
+            tutmak isteyenlerin ve şeker hastalarının 2 porsiyondan fazla yememesi tavsiye edilir.</li>
+    </ul>
+
+    
+    <div style="display: flex;">
+        <table style="background-color: rgb(226, 223, 223); width: 250px; height: 50px; margin-top:125px">
+            <tr>
+                <td>
+                    Hazırlama Süresi:
+                </td>
+                <td>
+                    10 Dakika
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pişirme Süresi:
+                </td>
+                <td>
+                    6 Dakika
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Kişi Sayısı:
+                </td>
+                <td>
+                    4 Kişilik
+                </td>
+            </tr>
+        </table>
+        <ul>
+            <h3>Malzemeler</h3>
+            <li>1 adet yumurta</li>
+            <li>1 çay bardağı toz şeker</li>
+            <li>1 çay bardağı süt</li>
+            <li>1 çay bardağı sıvı yağ</li>
+            <li>2 yemek kaşığı kakao</li>
+            <li>8 yemek kaşığı un</li>
+            <li>1 tatlı kaşığı kabartma tozu</li>
+            <li>1 paket vanilin</li>
+            <li>8 dilim bitter çikolata</li>
+            <li>Pudra şekeri</li>
+
+        </ul>
+        <ol>
+            <h3 id="tarif">Nasıl Yapılır?</h3>
+            <li>Öncelikle bir kabın içerisinde yumurta ve toz şekeri karıştırın.</li>
+            <li>Şeker tamamen eridiğinde içerisine sıvıyağ, süt, kakao, kabartma tozu, vanilya ve unu ekleyerek mikserle
+                çırpın.</li>
+            <li>Bu esnada geniş bir tencerenin içerisine su doldurun. Sufleyi pişirmek için ısıya dayanıklı sufle
+                kalıpları kullanabilirsiniz.</li>
+            <li>Tencereye doldurduğunuz su, sufle kalıplarının yarısına gelmelidir.</li>
+            <li>Sufle kalıplarının her birine 1 dilim çikolata yerleştirin.</li>
+            <li>Hazırladığınız karışımı sufle kaplarına doldurun. Kapların üzerinde 1 parmak kalınlığında boşluk
+                bırakın.</li>
+            <li>Kalan çikolata dilimlerini, karışımın ortasına batırın.</li>
+            <li> Sufle kalıplarını tenceredeki sıcak suyun içerisine dikkatli bir şekilde yerleştirin.</li>
+            <li>Su kaynayana kadar, yaklaşık 1 dakika, yüksek ateşte pişirin.</li>
+            <li style="margin-left: -7px;">Su kaynamaya başladığında ocağı kısık ateşe alın, tencerenin kapağını kapatın
+                ve 6 dakika kontrollü bir şekilde pişirin. Afiyet olsun.</li>
+        </ol>
+    </div>
+</body>
+
+</html>
